@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.todolist{
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+.todolist h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.todolist input{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.todolist button{
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+}
+.todolist ol{
+    list-style-type: none;
+    padding: 0;
+}
+.todolist li{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   margin-bottom: 5px;
+  
+}
+.add-button{
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.add-button:hover{
+    background-color: #218838;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transform: scale(1.01);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.todolist .text{
+    flex-grow: 1;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+}
+.todolist .delete-button{
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.todolist .delete-button:hover{
+    background-color: #c82333;
+    transform: scale(1.01);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.todolist .move-up-button{
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.todolist .move-up-button:hover{
+    background-color: #218838;
+    transform: scale(1.01);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.todolist .move-down-button{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.todolist .move-down-button:hover{
+    background-color: #0056b3;
+    transform: scale(1.01);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+
+}
